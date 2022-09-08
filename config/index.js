@@ -33,9 +33,9 @@ export const config = {
       // 想要发送的人的名字
       name: "老婆0",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ojhHX5rYnlhP1C_roqh_qfebYgdY",
+      id: "ojhHX5ogByfuuQhdbKg2tUGIGcEw",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "QrBMsOrzVDf-ldKbk63WdEVrHCyBfVr6iOaDnnLiO1E",
+      useTemplateId: "DmeuaK0K0CIe403Pi3sxr0MvYpeFQrYYNv4j7IDEqtg",
       // 所在省份
       province: "北京",
       // 所在城市
@@ -106,10 +106,11 @@ export const config = {
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
   FESTIVALS: [
-    {"type": "生日", "name": "老婆", "year": "2000", "date": "10-01"},
-    {"type": "节日", "name": "结婚纪念日", "year": "2000", "date": "10-01"},
-    {"type": "生日", "name": "李四", "year": "2000", "date": "10-01"},
-    {"type": "节日", "name": "被搭讪纪念日", "year": "2000", "date": "10-01"},
+    {"type": "生日", "name": "小宝贝儿", "year": "2001", "date": "12-04"},
+    {"type": "生日", "name": "大宝贝儿", "year": "2000", "date": "12-01"}
+    //{"type": "节日", "name": "结婚纪念日", "year": "2000", "date": "10-01"},
+    //{"type": "生日", "name": "李四", "year": "2000", "date": "10-01"},
+    //{"type": "节日", "name": "被搭讪纪念日", "year": "2000", "date": "10-01"},
   ],
 
   /**
@@ -129,7 +130,7 @@ export const config = {
     // 在一起的日子
     {"keyword": "love_day", date: "2020-10-01"},
     // 结婚纪念日
-    {"keyword": "marry_day", date: "2020-10-01"},
+    //{"keyword": "marry_day", date: "2020-10-01"},
     // 退伍日, 不用可以删掉
     {"keyword": "ex_day", date: "2020-10-01"},
     // sakana日
